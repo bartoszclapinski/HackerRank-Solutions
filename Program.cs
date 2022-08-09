@@ -83,7 +83,7 @@
     public static long flippingBits(long n)
     {
         uint result = 0;
-        uint input = (uint)n;        
+        uint input = ~(uint)n;        
 
         return (long) result;
     }
