@@ -80,6 +80,14 @@
         return result;
     }
 
+    public static long flippingBits(long n)
+    {
+        uint result = 0;
+        uint input = (uint)n;        
+
+        return (long) result;
+    }
+
     public static void Main(string[] args)
     {
         List<int> plusMinusArr = new List<int> { 1, 1, 0, -1, -1 };
@@ -104,5 +112,8 @@
         matchingStrings(strings3, queries3);
 
         lonelyInteger(plusMinusArr);
+
+        long n = 9;
+        flippingBits(n);
     }
 }
