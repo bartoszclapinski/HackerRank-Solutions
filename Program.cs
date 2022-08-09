@@ -48,6 +48,38 @@
         return String.Concat(hours, rest);        
     }
 
+    public static List<int> matchingStrings(List<string> strings, List<string> queries)
+    {
+        List<int> result = new List<int>();
+        Dictionary<string, int> map = new Dictionary<string, int>();
+
+        foreach (string s in strings)
+        {
+            if (map.ContainsKey(s)) ++map[s];
+            else map.Add(s, 1);
+        }
+
+        foreach (string q in queries)
+        {
+            if (map.ContainsKey(q)) result.Add(map[q]);
+            else result.Add(0);
+        }
+
+        return result;
+    }
+
+    public static int lonelyInteger(List<int> a)
+    {
+        int result = 0;
+
+        foreach (int i in a)
+        {
+            result ^= i;
+        }
+
+        return result;
+    }
+
     public static void Main(string[] args)
     {
         List<int> plusMinusArr = new List<int> { 1, 1, 0, -1, -1 };
@@ -58,5 +90,19 @@
 
         string s = "07:05:45PM";
         Console.WriteLine(timeConvcersionSolution(s));
+
+        List<string> strings  = new List<string> { "ab", "ab", "abc" };
+        List<string> queries  = new List<string> { "ab", "abc", "bc" };
+        List<string> strings1 = new List<string> { "aba", "baba", "aba", "xzxb" };
+        List<string> queries1 = new List<string> { "aba", "xzxb", "ab" };
+        List<string> strings2 = new List<string> { "def", "de", "fgh" };
+        List<string> queries2 = new List<string> { "de", "lmn", "fgh" };
+        List<string> strings3 = new List<string> { "abcde", "sdaklfj", "asdjf", "na", "basdn", "sdaklfj", "asdjf",
+                                                    "na", "asdjf", "na", "basdn", "sdaklfj", "asdjf" };
+        List<string> queries3 = new List<string> { "abcde", "sdaklfj", "asdjf", "na", "basdn" };
+
+        matchingStrings(strings3, queries3);
+
+        lonelyInteger(plusMinusArr);
     }
 }
