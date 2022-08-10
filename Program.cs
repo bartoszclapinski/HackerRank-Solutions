@@ -126,6 +126,19 @@
         else return "not pangram";
     }
 
+    public static string twoArrays(int k, List<int> A, List<int> B)
+    {
+        A.Sort();
+        B.Sort();
+        B.Reverse();
+
+        for (int i = 0; i < A.Count; i++)
+        {
+            if (A[i] + B[i] < k) return "NO";
+        }
+        return "YES";
+    }
+
     public static void showListItems(List<int> arr)
     {
         foreach (int i in arr)
@@ -136,46 +149,7 @@
     }
 
     public static void Main(string[] args)
-    {
-        List<int> plusMinusArr = new List<int> { 1, 1, 0, -1, -1 };
-        plusMinusSolution(plusMinusArr);
-
-        List<int> minMaxSumArr = new List<int> { 9, 7, 1, 3, 5 };
-        minMaxSumSolution(minMaxSumArr);
-
-        string s = "07:05:45PM";
-        Console.WriteLine(timeConvcersionSolution(s));
-
-        List<string> strings  = new List<string> { "ab", "ab", "abc" };
-        List<string> queries  = new List<string> { "ab", "abc", "bc" };
-        List<string> strings1 = new List<string> { "aba", "baba", "aba", "xzxb" };
-        List<string> queries1 = new List<string> { "aba", "xzxb", "ab" };
-        List<string> strings2 = new List<string> { "def", "de", "fgh" };
-        List<string> queries2 = new List<string> { "de", "lmn", "fgh" };
-        List<string> strings3 = new List<string> { "abcde", "sdaklfj", "asdjf", "na", "basdn", "sdaklfj", "asdjf",
-                                                    "na", "asdjf", "na", "basdn", "sdaklfj", "asdjf" };
-        List<string> queries3 = new List<string> { "abcde", "sdaklfj", "asdjf", "na", "basdn" };
-
-        matchingStrings(strings3, queries3);
-
-        lonelyInteger(plusMinusArr);
-
-        long n = 9;
-        flippingBits(n);
-
-        List<List<int>> diagonalDifferenceArr = new List<List<int>>
-            {
-                new List<int> { 1, 2, 3 },
-                new List<int> { 4, 5, 6 },
-                new List<int> { 9, 8, 9 }
-            };
-        Console.WriteLine(diagonalDifference(diagonalDifferenceArr));
-
-        List<int> countingSortArr = new List<int> { 1, 1, 3, 2, 1 };
-        showListItems(countingSort(countingSortArr));
-
-        string pangramInput1 = "We promptly judged antique ivory buckles for the next prize";
-        string pangramInput2 = "We promptly judged antique ivory buckles for the prize";
-        Console.WriteLine(pangrams(pangramInput1));
+    {        
+        
     }
 }
