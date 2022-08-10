@@ -100,6 +100,27 @@
         return Math.Abs(sum);
     }
 
+    public static List<int> countingSort(List<int> arr)
+    {
+        int[] resultArr = new int[100];
+        
+        foreach (int i in arr)
+        {
+            resultArr[i] += 1;
+        }
+
+        return resultArr.ToList();
+    }
+
+    public static void showListItems(List<int> arr)
+    {
+        foreach (int i in arr)
+        {
+            Console.Write(i + " ");
+        }
+        Console.WriteLine();
+    }
+
     public static void Main(string[] args)
     {
         List<int> plusMinusArr = new List<int> { 1, 1, 0, -1, -1 };
@@ -136,7 +157,8 @@
             };
         Console.WriteLine(diagonalDifference(diagonalDifferenceArr));
 
-        
+        List<int> countingSortArr = new List<int> { 1, 1, 3, 2, 1 };
+        showListItems(countingSort(countingSortArr));
 
     }
 }
