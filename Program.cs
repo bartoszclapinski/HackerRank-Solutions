@@ -112,6 +112,20 @@
         return resultArr.ToList();
     }
 
+    public static string pangrams(string s)
+    {
+        string alphabet = "abcdefghijklmnopqrstuvwxyz";
+        
+        string sortedInput = String.Concat(s
+            .ToLower()
+            .Where(s => !Char.IsWhiteSpace(s))
+            .OrderBy(s => s)
+            .Distinct());        
+        
+        if (sortedInput.Equals(alphabet)) return "pangram";
+        else return "not pangram";
+    }
+
     public static void showListItems(List<int> arr)
     {
         foreach (int i in arr)
@@ -160,5 +174,8 @@
         List<int> countingSortArr = new List<int> { 1, 1, 3, 2, 1 };
         showListItems(countingSort(countingSortArr));
 
+        string pangramInput1 = "We promptly judged antique ivory buckles for the next prize";
+        string pangramInput2 = "We promptly judged antique ivory buckles for the prize";
+        Console.WriteLine(pangrams(pangramInput1));
     }
 }
