@@ -128,15 +128,51 @@
 
     public static string twoArrays(int k, List<int> A, List<int> B)
     {
-        A.Sort();
-        B.Sort();
-        B.Reverse();
+        var sortedA = A.OrderBy(a => a).ToList();
+        var sortedB = B.OrderByDescending(b => b).ToList();
 
         for (int i = 0; i < A.Count; i++)
         {
-            if (A[i] + B[i] < k) return "NO";
+            if (sortedA[i] + sortedB[i] < k) return "NO";
         }
         return "YES";
+    }
+
+    public static int birthday(List<int> s, int d, int m)
+    {
+        int result = 0, count = 0;
+                
+        for (int i = 0; i < s.Count; i++)
+        {
+            if ((i + m - 1) < s.Count)
+            {
+                for (int j = i; j < (i + m); j++)
+                {
+                    result += s[j];
+                }
+
+                if (result == d) ++count;
+
+                result = 0;
+            }
+        }
+
+        return count;
+    }
+
+    public static string xorStrings2(string s, string t)
+    {
+        /*
+         *  Solution bugged at HackerRank
+         */
+        string result = "";
+        for (int i = 0; i < s.Length; i++)
+        {
+            if (s.ToCharArray()[i] == t.ToCharArray()[i]) result += 0;
+            else result += 1;
+        }
+
+        return result;
     }
 
     public static void showListItems(List<int> arr)
@@ -149,7 +185,8 @@
     }
 
     public static void Main(string[] args)
-    {        
-        
+    {
+        List<int> arr = new List<int> { 4, 1 };
+        Console.WriteLine(birthday(arr, 4, 1));
     }
 }
