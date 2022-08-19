@@ -4,9 +4,11 @@ class Program
 {
     public static void Main(string[] args)
     {
-        List<int> arr = new List<int>() { 1, 7, 4, 5, 2, 3, 6 };
-        int n = 7;
-        ConsoleTestSolutions.HackerRank.ZigZagSequence.ZigZagSequence.findZigZagSequence(arr, n);
-        
+        for (int i = 1; i <= 21; i++)
+        {
+            Console.WriteLine(
+                ConsoleTestSolutions.HackerRank.DrawingBook.DrawingBook.pageCount(21, i)
+                );
+        }
     }
 }
