@@ -1,1 +1,1 @@
-ConsoleTestSolucions
+HakerRank solutions
