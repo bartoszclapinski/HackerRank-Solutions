@@ -4,11 +4,8 @@ class Program
 {
     public static void Main(string[] args)
     {
-        for (int i = 1; i <= 21; i++)
-        {
-            Console.WriteLine(
-                ConsoleTestSolutions.HackerRank.DrawingBook.DrawingBook.pageCount(21, i)
-                );
-        }
+        string s = "1X7T4VrCs23k4vv08D6yQ3S19G4rVP188M9ahuxB6j1tMGZs1m10ey7eUj62WV2exLT4C83zl7Q80M";
+        int k = 27;
+        Console.WriteLine(ConsoleTestSolutions.HackerRank.CaesarCipher.CaesarCipher.caesarCipher(s, k));
     }
 }
