@@ -10,12 +10,8 @@ namespace ConsoleTestSolutions.HackerRank.DynamicArray
     {
         public static List<int> dynamicArray(int n, List<List<int>> queries)
         {
-            List<List<int>> arr = new List<List<int>>();
-            
-            for (int i = 0; i < n; i++)
-            {
-                arr.Add(new List<int>());
-            }
+            List<List<int>> arr = new List<List<int>>();            
+            for (int i = 0; i < n; i++) arr.Add(new List<int>());            
 
             List<int> result = new List<int>();
             int last = 0;
