@@ -4,8 +4,8 @@ class Program
 {
     public static void Main(string[] args)
     {
-        List<int> list = new List<int>() { 7, 3, 100, 200, 300, 350, 400, 401, 402 };
+        List<string> list = new List<string>() { "mpxz", "abcd", "wlmf" };
         int k = 3;
-        Console.WriteLine(ConsoleTestSolutions.HackerRank.MaxMin.MaxMin.maxMin(k, list));
+        Console.WriteLine(ConsoleTestSolutions.HackerRank.GridChallenge.GridChallenge.gridChallenge(list));
     }
 }
