@@ -10,13 +10,13 @@ namespace ConsoleTestSolutions.HackerRank.MaxMin
     {
         public static int maxMin(int k, List<int> arr)
         {
-            int result = Int32.MaxValue, temp = 0;
+            int result = Int32.MaxValue;
             arr.Sort();            
 
             for (int i = 0; i < arr.Count - k + 1; i++)
             {
-                temp = Math.Max(arr[i], arr[i + k - 1]) - Math.Min(arr[i], arr[i + k - 1]);
-                result = Math.Min(temp, result);
+                result = Math.Min(result, 
+                    Math.Max(arr[i], arr[i + k - 1]) - Math.Min(arr[i], arr[i + k - 1]));                
             }
             return result;
         }
