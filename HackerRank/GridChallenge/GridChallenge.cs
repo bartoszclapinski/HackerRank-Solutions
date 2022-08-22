@@ -23,7 +23,7 @@ namespace ConsoleTestSolutions.HackerRank.GridChallenge
                 }
             }
 
-            return "YES";`
+            return "YES";
         }
     }
 }
