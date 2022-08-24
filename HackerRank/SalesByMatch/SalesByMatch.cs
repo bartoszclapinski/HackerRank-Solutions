@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleTestSolutions.HackerRank.SockMerchant
+namespace ConsoleTestSolutions.HackerRank.SalesByMatch
 {
-    class SockMerchant
+    class SalesByMatch
     {
         public static int sockMerchant(int n, List<int> arr)
         {
