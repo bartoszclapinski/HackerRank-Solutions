@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleTestSolutions.HackerRank.MinMaxSum
+namespace ConsoleTestSolutions.HackerRank.MiniMaxSum
 {
-    class MinMaxSum
+    class MiniMaxSum
     {
         public static void minMaxSumSolution(List<int> arr)
         {
