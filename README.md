@@ -6,3 +6,12 @@
   <img src="https://img.shields.io/github/languages/count/bartoszclapinski/ChallengesSolutions?color=orange&style=flat-square">
   <img src="https://img.shields.io/github/languages/top/bartoszclapinski/ChallengesSolutions?style=flat-square">  
 </p>
+
+
+| Problem Name | Solutions | Language | Skill |
+| ------- | ------- | ------- | ------- |
+| Plus Minus | [Solution](https://github.com/bartoszclapinski/ChallengesSolutions/tree/master/HackerRank/PlusMinus) | C# | Problem Solving (Basic) |
+| Min Max Sum | [Solution](https://github.com/bartoszclapinski/ChallengesSolutions/tree/master/HackerRank/MinMaxSum) | C# | Problem Solving (Basic) |
+| Time Conversion | [Solution](https://github.com/bartoszclapinski/ChallengesSolutions/tree/master/HackerRank/TimeConversion) | C# | Problem Solving (Basic) |
+| Sparse Arrays | [Solution](https://github.com/bartoszclapinski/ChallengesSolutions/tree/master/HackerRank/SparseArrays) | C# | Problem Solving (Basic) |
+| Lonely Integer | [Solution](https://github.com/bartoszclapinski/ChallengesSolutions/tree/master/HackerRank/LonelyInteger) | C# | Problem Solving (Basic) |
