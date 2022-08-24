@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Birthday {
+public class SubarrayDivision {
     public static int birthday(List<Integer> s, int d, int m){
         int result = 0, count = 0;
 

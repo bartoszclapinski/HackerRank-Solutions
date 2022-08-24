@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleTestSolutions.HackerRank.Birthday
+namespace ConsoleTestSolutions.HackerRank.SubarrayDivision
 {
-    class Birthday
+    class SubarrayDivision
     {
         public static int birthday(List<int> s, int d, int m)
         {
