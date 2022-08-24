@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleTestSolutions.HackerRank.MatchingStrings
+namespace ConsoleTestSolutions.HackerRank.SparseArrays
 {
-    class MatchingStrings
+    class SparseArrays
     {
         public static List<int> matchingStrings(List<string> strings, List<string> queries)
         {
