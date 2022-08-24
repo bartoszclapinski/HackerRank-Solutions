@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleTestSolutions.HackerRank.TwoArrays
+namespace ConsoleTestSolutions.HackerRank.PermutingTwoArrays
 {
-    class TwoArrays
+    class PermutingTwoArrays
     {
         public static string twoArrays(int k, List<int> A, List<int> B)
         {
