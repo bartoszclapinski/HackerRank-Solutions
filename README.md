@@ -2,7 +2,7 @@
 <p align="center">
   <img src="https://img.shields.io/github/last-commit/bartoszclapinski/ChallengesSolutions?style=flat-square">
   <img src="https://img.shields.io/github/commit-activity/w/bartoszclapinski/ChallengesSolutions?color=green&style=flat-square">
-  <img src="https://img.shields.io/badge/Problems%20Solved-22-blueviolet?style=flat-square">
+  <img src="https://img.shields.io/badge/Problems%20Solved-23-blueviolet?style=flat-square">
   <img src="https://img.shields.io/github/languages/count/bartoszclapinski/ChallengesSolutions?color=orange&style=flat-square">
   <img src="https://img.shields.io/github/languages/top/bartoszclapinski/ChallengesSolutions?style=flat-square">  
 </p>
@@ -31,3 +31,4 @@
 | Dynamic Array | [Solution](https://github.com/bartoszclapinski/HackerRank-Solutions/tree/master/HackerRank/DynamicArray) | C#, Java | Problem Solving (Basic) | Easy |
 | Grid Challenge | [Solution](https://github.com/bartoszclapinski/HackerRank-Solutions/tree/master/HackerRank/GridChallenge) | C#, Java | Problem Solving (Basic) | Easy |
 | Prime Dates | [Solution](https://github.com/bartoszclapinski/HackerRank-Solutions/tree/master/HackerRank/PrimeDates) | C#, Java | Problem Solving (Basic) | Medium |
+| Sherlock and Array | [Solution](https://github.com/bartoszclapinski/HackerRank-Solutions/tree/master/HackerRank/SherlockAndArray) | C#, Java | Problem Solving (Basic) | Easy |
