@@ -1,10 +1,10 @@
 ## HakerRank solutions  
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/bartoszclapinski/ChallengesSolutions?style=flat-square">
-  <img src="https://img.shields.io/github/commit-activity/w/bartoszclapinski/ChallengesSolutions?color=green&style=flat-square">
+  <img src="https://img.shields.io/github/last-commit/bartoszclapinski/HackerRank-Solutions?style=flat-square">
+  <img src="https://img.shields.io/github/commit-activity/w/bartoszclapinski/HackerRank-Solutions?color=green&style=flat-square">
   <img src="https://img.shields.io/badge/Problems%20Solved-23-blueviolet?style=flat-square">
-  <img src="https://img.shields.io/github/languages/count/bartoszclapinski/ChallengesSolutions?color=orange&style=flat-square">
-  <img src="https://img.shields.io/github/languages/top/bartoszclapinski/ChallengesSolutions?style=flat-square">  
+  <img src="https://img.shields.io/github/languages/count/bartoszclapinski/HackerRank-Solutions?color=orange&style=flat-square">
+  <img src="https://img.shields.io/github/languages/top/bartoszclapinski/HackerRank-Solutions?style=flat-square">  
 </p>
 
 | Problem Name | Solutions | Language | Skill | Difficulty |
