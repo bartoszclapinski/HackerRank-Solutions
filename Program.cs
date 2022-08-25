@@ -4,7 +4,8 @@ class Program
 {
     public static void Main(string[] args)
     {
-        List<int> arr = new List<int>() { 1 };
-        Console.WriteLine(ConsoleTestSolutions.HackerRank.SherlockAndArray.SherlockAndArray.balancedSums(arr));
+        string n = "0000000009875";
+        int k = 4;
+        ConsoleTestSolutions.HackerRank.RecursiveDigitSum.RecursiveDigitSum.superDigit(n, k);
     }
 }

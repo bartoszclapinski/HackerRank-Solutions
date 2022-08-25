@@ -32,3 +32,4 @@
 | Grid Challenge | [Solution](https://github.com/bartoszclapinski/HackerRank-Solutions/tree/master/HackerRank/GridChallenge) | C#, Java | Problem Solving (Basic) | Easy |
 | Prime Dates | [Solution](https://github.com/bartoszclapinski/HackerRank-Solutions/tree/master/HackerRank/PrimeDates) | C#, Java | Problem Solving (Basic) | Medium |
 | Sherlock and Array | [Solution](https://github.com/bartoszclapinski/HackerRank-Solutions/tree/master/HackerRank/SherlockAndArray) | C#, Java, Python | Problem Solving (Basic) | Easy |
+| Recursive Digit Sum | [Solution](https://github.com/bartoszclapinski/HackerRank-Solutions/tree/master/HackerRank/RecursiveDigitSum) | C# | Problem Solving (Basic) | Medium |
