@@ -2,7 +2,7 @@
 <p align="center">
   <img src="https://img.shields.io/github/last-commit/bartoszclapinski/HackerRank-Solutions?style=flat-square">
   <img src="https://img.shields.io/github/commit-activity/w/bartoszclapinski/HackerRank-Solutions?color=green&style=flat-square">
-  <img src="https://img.shields.io/badge/Problems%20Solved-23-blueviolet?style=flat-square">
+  <img src="https://img.shields.io/badge/Problems%20Solved-25-blueviolet?style=flat-square">
   <img src="https://img.shields.io/github/languages/count/bartoszclapinski/HackerRank-Solutions?color=orange&style=flat-square">
   <img src="https://img.shields.io/github/languages/top/bartoszclapinski/HackerRank-Solutions?style=flat-square">  
 </p>
@@ -33,3 +33,4 @@
 | Prime Dates | [Solution](https://github.com/bartoszclapinski/HackerRank-Solutions/tree/master/HackerRank/PrimeDates) | C#, Java | Problem Solving (Basic) | Medium |
 | Sherlock and Array | [Solution](https://github.com/bartoszclapinski/HackerRank-Solutions/tree/master/HackerRank/SherlockAndArray) | C#, Java, Python | Problem Solving (Basic) | Easy |
 | Recursive Digit Sum | [Solution](https://github.com/bartoszclapinski/HackerRank-Solutions/tree/master/HackerRank/RecursiveDigitSum) | C#, Java, Python | Problem Solving (Basic) | Medium |
+| Counter Game | [Solution](https://github.com/bartoszclapinski/HackerRank-Solutions/tree/master/HackerRank/CounterGame) | C# | Problem Solving (Basic) | Medium |
